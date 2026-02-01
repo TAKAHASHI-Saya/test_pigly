@@ -39,13 +39,14 @@ php artisan db:seed
 
 ## ER図
 ![ER図](./er.drawio.png)
-``` text
-本アプリでは、目標体重は常に1つのみ保持する仕様のため、usersとweight_targetsは、「1対1」の関係としています。
-```
+
+※本アプリでは、目標体重は常に1つのみ保持する仕様のため、
+usersとweight_targetsは、「1対1」の関係としています。
 
 ## URL
 - 新規会員登録画面：http://localhost/register
 - ログイン画面：http://localhost/login
+- phpMyAdmin：http://localhost:8080/
 
 ## テスト用ログイン情報（ダミーデータ）
 以下のユーザーは `db:seed` 実行後に作成されます。
