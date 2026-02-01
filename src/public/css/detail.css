@@ -1,0 +1,83 @@
+.content{
+    background-color: #FFFFFF;
+    width: 80%;
+    padding: 0 25px;
+}
+.content__header{
+    margin-bottom: 30px;
+}
+
+.form__group--item{
+    margin-bottom: 25px;
+}
+.form__group--item p{
+    margin-bottom: 5px;
+}
+.form__group--item input{
+    width: 95%;
+    height: 40px;
+    border: 1px solid #C0C0C0;
+    border-radius: 3px;
+    color: #000000;
+    margin-right: 5px;
+}
+.form__group--item textarea{
+    width: 95%;
+    height: 100px;
+    border: 1px solid #C0C0C0;
+    border-radius: 3px;
+    color: #000000;
+}
+.form__button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form__button--group{
+    margin-left: 250px;
+}
+.form__button--back{
+    display: inline-block;
+    padding-top: 5px;
+    width: 150px;
+    height: 40px;
+    border: solid 1px #C0C0C0;
+    border-radius: 3px;
+    text-decoration: none;
+    background: #efefef;
+    color: #000000;
+    cursor: pointer;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.form__button--update{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #a4a7e1, #EE82EE);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.form__delete{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+.form__delete--button{
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+.trash{
+    font-size: 25px;
+    color: #FF0000;
+}
+.form__group--error{
+    color: #FF0000;
+}
